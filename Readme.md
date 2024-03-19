@@ -14,3 +14,22 @@ Product Schema:
 - Delete Product
 
 
+Folder Structure for Application
+----------------------------------
+
+routes
+
+controllers
+
+middlewares
+
+utils
+
+form-data
+---------
+{
+      name: "MenCloth",
+      description: "This is a Item of Mens Cloth",
+      quantity: 2,
+      imageUrl: files
+}
