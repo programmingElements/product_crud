@@ -15,6 +15,9 @@ const productSchema = new mongoose.Schema({
         type: Number,
         default: 0
     },
+    category: {
+        type: String
+    },
     imageUrl: { // cloudinary url 
         type: String
     }
@@ -22,7 +25,7 @@ const productSchema = new mongoose.Schema({
     timestamps: true
 });
 
-const Product = mongoose.Model("Product", productSchema);
+const Product = mongoose.model("Product", productSchema);
 
 export default Product;
 

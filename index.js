@@ -2,9 +2,11 @@ import express from "express";
 import { DB_NAME, MONGODB_URI, PORT } from "./constant.js";
 import { connectDB } from "./utils/connectDB.js";
 import productRouter from "./routes/product.routes.js";
+import cors from "cors";
 
 const app = express();
-
+// cors 
+app.use(cors());
 
 const port = PORT || 5000;
 const db_url = MONGODB_URI;

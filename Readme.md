@@ -7,11 +7,12 @@ Product Schema:
       - quantity 
       - imageUrl
 
-- Create Product
-- Update Product
-- Get All Products
-- Get Single Product
-- Delete Product
+- Health check [✅]
+- Create Product [✅]
+- Update Product [✅]
+- Get All Products [✅]
+- Get Single Product [✅]
+- Delete Product [✅]
 
 
 Folder Structure for Application
